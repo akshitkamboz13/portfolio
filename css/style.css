@@ -1,0 +1,58 @@
+@font-face {
+    font-family: lugg;
+    src: url(../fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+}
+@font-face {
+    font-family: goth;
+    src: url(../fonts/gotham/Gotham-Bold.otf);
+}
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+}
+#mybg{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #E6E4E5;
+    background-position: 25%;
+}
+#mylogo{
+    color: #504F0F;
+    font-size: 180%;
+    font-family: lugg;
+    text-align: left;
+}
+#mydit{
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    text-align: right;
+}
+#myengg{
+    color: olive;
+    font-size: 150%;
+    font-family:goth;
+    text-align: center;
+    text-transform: uppercase;
+    text-align:right ;
+    white-space: nowrap;
+}
+
+#myname{
+    color: #504F0F;
+    font-size: 400%;
+    font-family: poppins;
+    text-align: center;
+    text-transform: uppercase;
+    text-align: right;
+}
