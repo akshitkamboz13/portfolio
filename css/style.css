@@ -17,19 +17,53 @@
 html,body{
     height: 100%;
 }
+#mynav{
+    background-color:  rgba(218, 218, 204,1);
+    position: sticky;
+    top: 0%;
+}
+#mynavskill{
+    background-color: #E6E4E5;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
 #mybg{
     height: 100%;
-    background-size: cover;
+
+    background-size:cover;
     background-repeat: no-repeat;
     background-color: #E6E4E5;
     background-position: 25%;
 }
+header{
+    background-color: rgb(218, 218, 204);
+    position: sticky;
+}
 #mylogo{
-    color: #504F0F;
+    color: #656446;
     font-size: 180%;
     font-family: lugg;
     text-align: left;
 }
+
+a[href^="#mydit"] {
+    color: #aba1a2;
+}
+a[href^="#mydit"]:hover{
+    color: #3f3e1f;
+}
+a[href^="#mydit"]:active {
+    color: #3f3e1f;
+}
+a[href^="#mydit"]:focus {
+    color: #3f3e1f;
+}
+a[href^="#mydit"]:visited{
+    color: #aba1a2;
+}
+/* color: #3f3e1f */
 #mydit{
     padding: 10px;
     position: absolute;
@@ -38,14 +72,24 @@ html,body{
     transform: translate(-50%,-50%);
     text-align: right;
 }
-#myengg{
+.myengg{
     color: olive;
     font-size: 150%;
     font-family:goth;
-    text-align: center;
+    
     text-transform: uppercase;
     text-align:right ;
     white-space: nowrap;
+}
+.myengg2{
+    color: olive;
+    font-size: 150%;
+    font-family:goth;
+    
+    text-transform: uppercase;
+    text-align:right ;
+    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 #myname{
