@@ -1,102 +1,164 @@
 @font-face {
-    font-family: lugg;
-    src: url(../fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
+  font-family: lugg;
+  src: url(../fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf);
 }
 @font-face {
-    font-family: goth;
-    src: url(../fonts/gotham/Gotham-Bold.otf);
+  font-family: goth;
+  src: url(../fonts/gotham/Gotham-Bold.otf);
 }
 @font-face {
-    font-family: poppins;
-    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+  font-family: poppins;
+  src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
 }
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+  margin: 0%;
+  padding: 0%;
 }
-html,body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-#mynav{
-    background-color:  rgba(218, 218, 204,1);
-    position: sticky;
-    top: 0%;
+
+
+
+
+#mynav {
+  background-color: rgba(218, 218, 204, 1);
+  position: sticky;
+  top: 0%;
 }
-#mynavskill{
-    background-color: #E6E4E5;
-    display: block;
+#mynavskill {
+  background-color: #e6e4e5;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
 }
-#mybg{
-    height: 100%;
+#mybg {
+  height: 100%;
 
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-color: #E6E4E5;
-    background-position: 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #e6e4e5;
+  background-position: 25%;
 }
-header{
-    background-color: rgb(218, 218, 204);
-    position: sticky;
+header {
+  background-color: rgb(218, 218, 204);
+  position: sticky;
 }
-#mylogo{
-    color: #656446;
-    font-size: 180%;
-    font-family: lugg;
-    text-align: left;
+#mylogo {
+  color: #656446;
+  font-size: 180%;
+  font-family: lugg;
+  text-align: left;
 }
 
 a[href^="#mydit"] {
-    color: #aba1a2;
+  color: #aba1a2;
 }
-a[href^="#mydit"]:hover{
-    color: #3f3e1f;
+a[href^="#mydit"]:hover {
+  color: #3f3e1f;
 }
 a[href^="#mydit"]:active {
-    color: #3f3e1f;
+  color: #3f3e1f;
 }
 a[href^="#mydit"]:focus {
-    color: #3f3e1f;
+  color: #3f3e1f;
 }
-a[href^="#mydit"]:visited{
-    color: #aba1a2;
+a[href^="#mydit"]:visited {
+  color: #aba1a2;
 }
 /* color: #3f3e1f */
-#mydit{
-    padding: 10px;
-    position: absolute;
-    top: 50%;
-    left: 80%;
-    transform: translate(-50%,-50%);
-    text-align: right;
+#mydit {
+  padding: 10px;
+ position: absolute;
+  margin-top: 20%;
+  margin-left: 50%;
+  
+font-size: 90%;
+  transform: translate(-50%, -50%);
+  text-align: right;
 }
-.myengg{
-    color: olive;
-    font-size: 150%;
-    font-family:goth;
-    
-    text-transform: uppercase;
-    text-align:right ;
-    white-space: nowrap;
+.myengg {
+  color: olive;
+  font-size: 150%;
+  font-family: goth;
+
+  text-transform: uppercase;
+  text-align: right;
+  white-space: nowrap;
 }
-.myengg2{
-    color: olive;
-    font-size: 150%;
-    font-family:goth;
-    
-    text-transform: uppercase;
-    text-align:right ;
-    margin-top: 5%;
-    margin-bottom: 10%;
+.myengg2 {
+  color: olive;
+  font-size: 150%;
+  font-family: goth;
+
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
-#myname{
-    color: #504F0F;
-    font-size: 400%;
-    font-family: poppins;
-    text-align: center;
-    text-transform: uppercase;
-    text-align: right;
+#myname {
+  color: #504f0f;
+  font-size: 400%;
+  font-family: poppins;
+  
+  text-transform: uppercase;
+  text-align: right;
 }
+
+.myengg3 {
+  color: olive;
+  font-size: 150%;
+  font-family: goth;
+
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.myworkparent, .myskillparent, .mycvparent{
+  background: repeating-linear-gradient(
+    -45deg,
+    #f0f0f0,
+    #f0f0f0 10px,
+    transparent 10px,
+    transparent 20px
+  );
+  background-size: 20px 40px;
+}
+.myengg4 {
+  color: olive;
+  font-size: 150%;
+  font-family: goth;
+
+  text-transform: uppercase;
+  text-align: right;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.resss{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.ressss{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+font-family: goth;
+background: transparent;
+color:#504f0f;
+border:#504f0f;
+border-style: double;
+}
+/*.myskillparent{
+  background: linear-gradient(135deg, #f0f0f0 25%, transparent 25%) -10px 0,
+                  linear-gradient(225deg, #f0f0f0 25%, transparent 25%) -10px 0,
+                  linear-gradient(315deg, #f0f0f0 25%, transparent 25%),
+                  linear-gradient(45deg, #f0f0f0 25%, transparent 25%);
+      background-size: 20px 20px;
+}*/
